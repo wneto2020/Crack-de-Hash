@@ -1,7 +1,6 @@
 import sys
 import hashlib
 
-
 crack_hash = sys.argv[1]
 
 if sys.argv[2].upper():
