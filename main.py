@@ -1,8 +1,10 @@
 import sys
 import hashlib
 
+#Hash passada como argumento
 crack_hash = sys.argv[1]
 
+#Código que faz o crack de hash
 if sys.argv[2].upper():
     wordlist = sys.argv[3]
     with open(wordlist, 'r', encoding='latin-1') as file:
